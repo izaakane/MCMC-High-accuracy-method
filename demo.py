@@ -17,7 +17,7 @@ def main():
 
     # Lancement du sampler pour 1000 itérations avec un pas de 0.05
     particles = sampler.mix(
-        num_iters=100000,
+        num_iters=1000,
         return_particles=True,
         no_progress=True
     )
